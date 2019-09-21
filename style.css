@@ -1,0 +1,137 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(184, 173, 173);
+}
+/* Common Throughout (Global)*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.button_1{
+height: 38px;
+background: #e8491d;
+border: 0;
+padding-left: 20px;
+padding-right: 20px;
+color: #ffffff;
+}
+h1 {
+    color: rgb(245, 240, 240);
+}
+p {
+    color: rgb(29, 26, 26);
+    font-weight: 80px;
+    text-align: center;
+}
+
+/*Header*/
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    margin: 0;
+    padding: 0;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+header #logo {
+    float: left;
+    
+}
+header #logo h1{
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* Middle Section This is where the background image goes */
+#fiirsho {
+    min-height: 1200px;
+    background: url('images/CYMERA_20190316_160540.jpg') repeat 0;
+}
+#fiirsho h1 {
+margin-top: 900px;
+font-size: 55px;
+margin-bottom: 80px;
+}
+
+#fiirsho2 {
+    padding: 15px;
+    color: white;
+    background: #35424a;
+}
+#fiirsho2 h1 {
+    float: left;
+}
+#fiirsho2 form {
+    float: right;
+    margin-top: 10px;
+}
+#fiirsho2 input[type="email"]{
+    padding: 4px;
+    height:25px;
+    width: 250px;
+}
+
+/* Boxes */
+#boxes {
+    margin-top: 20px;
+}
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+footer {
+    background-color: #e8491d;
+    color: #ffffff;
+    padding-top: 30px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
